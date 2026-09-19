@@ -1,0 +1,12 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Vehicle Safety Rating Lookup",
+    "description": "One record per trim matching the requested year/make/model, with NHTSA's official safety ratings.",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Safety ratings",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

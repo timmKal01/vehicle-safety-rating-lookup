@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "vehicle-safety-rating-lookup",
+    "title": "Vehicle Safety Rating Lookup: NHTSA 5-Star Ratings",
+    "description": "Look up official NHTSA 5-star safety ratings for a vehicle make, model, and model year: overall, front crash, side crash, rollover, plus safety features and linked complaint/recall/investigation counts. For dealers, fleet managers, and shoppers.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

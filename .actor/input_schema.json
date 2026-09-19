@@ -1,0 +1,32 @@
+{
+    "title": "Vehicle Safety Rating Lookup Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "year": {
+            "title": "Model year",
+            "type": "integer",
+            "editor": "number",
+            "description": "Vehicle model year, e.g. 2022.",
+            "prefill": 2022,
+            "default": 2022
+        },
+        "make": {
+            "title": "Make",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Vehicle manufacturer, e.g. \"Honda\", \"Ford\", \"Toyota\". Not case-sensitive.",
+            "prefill": "Honda",
+            "default": "Honda"
+        },
+        "model": {
+            "title": "Model",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Vehicle model, e.g. \"Accord\", \"Explorer\", \"Camry\". Not case-sensitive.",
+            "prefill": "Accord",
+            "default": "Accord"
+        }
+    },
+    "required": ["year", "make", "model"]
+}
