@@ -68,6 +68,13 @@ actor handles both steps and returns one record per trim, with automatic
 retries on transient failures. No key, no proxy, no scraping, public-domain
 US government data.
 
+## Pricing note
+
+Billed per **lookup** (one run), not per trim returned — the NHTSA API
+requires querying each trim's `VehicleId` separately behind the scenes, but
+that's internal plumbing, not billable output, so one year/make/model
+lookup is one charge whether it resolves to 1 trim or 6.
+
 ## Related products
 
 - [Vehicle Recall Tracker](https://github.com/timmKal01/vehicle-recall-tracker): official confirmed safety recalls for a make/model/year range
