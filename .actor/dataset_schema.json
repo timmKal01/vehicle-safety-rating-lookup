@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "vehicleDescription",
+                    "overallRating",
+                    "overallFrontCrashRating",
+                    "overallSideCrashRating",
+                    "rolloverRating",
+                    "rolloverPossibility",
+                    "sidePoleCrashRating",
+                    "forwardCollisionWarning",
+                    "laneDepartureWarning",
+                    "complaintsCount",
+                    "recallsCount",
+                    "investigationCount"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "vehicleDescription": {
+                        "label": "Vehicle description",
+                        "format": "text"
+                    },
+                    "overallRating": {
+                        "label": "Overall rating",
+                        "format": "text"
+                    },
+                    "overallFrontCrashRating": {
+                        "label": "Overall front crash rating",
+                        "format": "text"
+                    },
+                    "overallSideCrashRating": {
+                        "label": "Overall side crash rating",
+                        "format": "text"
+                    },
+                    "rolloverRating": {
+                        "label": "Rollover rating",
+                        "format": "text"
+                    },
+                    "rolloverPossibility": {
+                        "label": "Rollover possibility",
+                        "format": "number"
+                    },
+                    "sidePoleCrashRating": {
+                        "label": "Side pole crash rating",
+                        "format": "text"
+                    },
+                    "forwardCollisionWarning": {
+                        "label": "Forward collision warning",
+                        "format": "text"
+                    },
+                    "laneDepartureWarning": {
+                        "label": "Lane departure warning",
+                        "format": "text"
+                    },
+                    "complaintsCount": {
+                        "label": "Complaints count",
+                        "format": "number"
+                    },
+                    "recallsCount": {
+                        "label": "Recalls count",
+                        "format": "number"
+                    },
+                    "investigationCount": {
+                        "label": "Investigation count",
+                        "format": "number"
+                    }
+                }
+            }
+        }
+    }
+}
