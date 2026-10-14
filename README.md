@@ -35,8 +35,8 @@ billed once for the lookup.
 ## Who this is for
 
 Completes the full safety picture alongside this portfolio's other two
-NHTSA actors, [Vehicle Recall Tracker](https://github.com/timmKal01/vehicle-recall-tracker)
-and [Vehicle Complaint Tracker](https://github.com/timmKal01/vehicle-complaint-tracker):
+NHTSA actors, [Vehicle Recall Tracker](https://apify.com/m_ctim/vehicle-recall-tracker)
+and [Vehicle Complaint Tracker](https://apify.com/m_ctim/vehicle-complaint-tracker):
 
 - **Dealers and shoppers** comparing a vehicle's official crash-test rating before a purchase or trade-in.
 - **Fleet managers** screening vehicles for a fleet on safety rating, not just price and mileage.
@@ -77,5 +77,5 @@ lookup is one charge whether it resolves to 1 trim or 6.
 
 ## Related products
 
-- [Vehicle Recall Tracker](https://github.com/timmKal01/vehicle-recall-tracker): official confirmed safety recalls for a make/model/year range
-- [Vehicle Complaint Tracker](https://github.com/timmKal01/vehicle-complaint-tracker): raw owner-submitted complaints, the early-warning signal before an official recall
+- [Vehicle Recall Lookup by Make, Model & Year](https://apify.com/m_ctim/vehicle-recall-tracker): official confirmed safety recalls for a make/model/year range
+- [Vehicle Complaint Lookup](https://apify.com/m_ctim/vehicle-complaint-tracker): raw owner-submitted complaints, the early-warning signal before an official recall
