@@ -1,3 +1,7 @@
+// Some public APIs refuse requests that identify themselves only as Node's default "node" user agent (data.cms.gov
+// started doing so in October 2026), so every request says which tool is asking and where to find it.
+const USER_AGENT = 'vehicle-safety-rating-lookup/0.1 (+https://apify.com/m_ctim/vehicle-safety-rating-lookup)';
+
 const BASE_URL = 'https://api.nhtsa.gov/SafetyRatings';
 const REQUEST_TIMEOUT_MS = 20_000;
 const MAX_ATTEMPTS = 3;
@@ -7,7 +11,7 @@ async function fetchWithTimeout(url) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
     try {
-        return await fetch(url, { signal: controller.signal });
+        return await fetch(url, { headers: { 'User-Agent': USER_AGENT }, signal: controller.signal });
     } finally {
         clearTimeout(timer);
     }
