@@ -28,5 +28,5 @@
             "default": "Accord"
         }
     },
-    "required": ["year", "make", "model"]
+    "required": []
 }
